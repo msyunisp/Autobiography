@@ -1,0 +1,293 @@
+
+
+body {
+    background-color:  rgba(240, 231, 226, 0.889);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 25px 50px;
+    color: white;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.8s;
+}
+
+.nav a:hover {
+    color: rgba(62, 176, 20, 0.563);
+}
+
+.Mprofile{
+    
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 50px 30px;
+ border-color: black;
+
+}
+
+.Mprofile img {
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px;
+    border-style:ridge;
+    border-color: green;
+}
+h1 {
+    font-size: 200px;
+    text-align: center;
+    color: rgba(62, 176, 20, 0.563);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: .5px;
+    text-shadow: 500px;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Reenie Beanie", cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+.home-button {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color:  rgba(62, 176, 20, 0.563);
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 40px;
+}
+
+.about-box {
+    width: 90%; 
+    margin: 30px auto; 
+    background-color: #f5f5f5; 
+    padding: 20px; 
+    border-radius: 10px;
+    border: 2px solid #444; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.about-box h1 {
+    font-size: 24px; 
+    color: #2c3e50; 
+}
+
+.about-box p {
+    font-size: 18px; 
+    text-align: justify; 
+    color: #333;
+    line-height: 1.6; 
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto;
+    gap: 20px; 
+}
+
+.hobbies-box, .career-box {
+    width: 48%; 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hobbies-box {
+    background-color: #e6f7ff; 
+    border: 2px solid #3498db;
+}
+
+.career-box {
+    background-color: #ffcccc; 
+    border: 2px solid #e74c3c;
+}
+
+.hobbies-box h2, .career-box h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.hobbies-box p, .career-box p {
+    font-size: 18px;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+}
+
+.edu-work-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto;
+    gap: 20px; 
+}
+
+.education-box, .work-box {
+    width: 48%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.education-box {
+    background-color: #f9f1d8; 
+    border: 2px solid #e1a100;
+}
+
+.work-box {
+    background-color: #d8f3dc; 
+    border: 2px solid #2d6a4f;
+}
+
+.education-box h2, .work-box h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.education-box p, .work-box p {
+    font-size: 18px;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+}
+
+.early-life-box {
+    width: 85%;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #444;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.early-life-box h1 {
+    font-size: 18px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.early-life-box p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.early-life-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.early-life-images img {
+    width: 33%;
+    max-width: 500px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    font-family: "Londrina Sketch", sans-serif; 
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.location, .email, .phone {
+    font-size: 40px; 
+    color: #333;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Reenie Beanie", cursive; 
+    font-size: 25px;
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.facebook {
+    background: #e7f3ff !important; 
+    border: 1px solid #1877F2 !important;
+}
+
+.linkedin {
+    background: #e0f2ff !important;
+    border: 1px solid #0A66C2 !important;
+}
+
+.instagram {
+    background: #ffe7f0 !important; 
+    border: 1px solid #E1306C !important;
+}
+
+.social-box img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.social-box:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0 !important;
+}
